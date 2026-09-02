@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXEMPLE TEST — Page de démonstration</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: #0f1115;
+            color: #e8e8e8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px 16px;
+            margin: 0;
+        }
+        .banner {
+            background: #7a2323;
+            color: #fff;
+            padding: 8px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+        .test-banner {
+            background: #b58900;
+            color: #000;
+            padding: 6px 16px;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+        h1 { font-size: 1.2rem; color: #7ec8ff; }
+        .fields {
+            width: 100%;
+            max-width: 480px;
+            background: #1b1e24;
+            border-radius: 10px;
+            padding: 16px;
+        }
+        .field { margin-bottom: 12px; }
+        .label { color: #7ec8ff; font-size: 0.85rem; font-weight: bold; }
+        .value { font-size: 1rem; }
+        .footer-note {
+            margin-top: 20px;
+            font-size: 0.75rem;
+            color: #888;
+            max-width: 480px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">EXEMPLE — Page liée à un code-barres</div>
+    <div class="test-banner">⚠ DONNÉES FICTIVES — USAGE PÉDAGOGIQUE UNIQUEMENT</div>
+    <h1>Démonstration : Code-barres → Page Web</h1>
+
+    <div class="fields">
+        <div class="field"><div class="label">Champ 1</div><div class="value">TEST — Exemple A</div></div>
+        <div class="field"><div class="label">Champ 2</div><div class="value">TEST — Exemple B</div></div>
+        <div class="field"><div class="label">Champ 3</div><div class="value">TEST — Exemple C</div></div>
+        <div class="field"><div class="label">Numéro de référence</div><div class="value">TEST-000000000</div></div>
+        <div class="field"><div class="label">Date</div><div class="value">01/01/2000</div></div>
+        <div class="field"><div class="label">Statut</div><div class="value">DÉMONSTRATION</div></div>
+    </div>
+
+    <div class="footer-note">
+        Cette page a été créée à des fins d'apprentissage sur le fonctionnement des codes-barres
+        (Code 128) et de leur lien vers une page web hébergée. Elle ne représente aucun document
+        officiel et ne doit pas être utilisée comme tel.
+    </div>
+</body>
+</html>
